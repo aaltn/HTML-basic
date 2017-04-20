@@ -3,6 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <title>Controlling document outlines</title>
+    <style>
+        .book {
+            background: #369;
+            padding:16px;
+            width: 250px;
+            color: white;
+            margin-bottom: 16px;
+        }
+        .book h5 {
+            font: 1.2em Arial, sans-serif;
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
 <h1>My Big Blog </h1>
@@ -14,17 +27,25 @@
   <section>
     <h3>My favorite books </h3>
     <h4>Fiction </h4>
-    <ul>
-      <li>The Hobbit </li>
-      <li>Animal Farm</li>
-      <li>House of Leaves </li>
-    </ul>
+    <div class="book">
+      <h5>The Hobbit </h5>
+      <p>by JRR Tolkein</p>
+      <p>A short, slightly introverted humanoid goes on a grand adventure and steals a ring.</p>
+    </div>
+    <div class="book">
+      <h5>Animal Farm</h5>
+      <p>by George Orwell</p>
+      <p>Animals revolt against their farmer only to find that the pigs that take his place are just as bad.</p>
+    </div>
+    <div class="book">
+      <h5>House of Leaves </h5>
+      <p>by Mark Danielewski</p>
+      <p>A story within a story of a family that learns their house is bigger on the inside than it is outside</p>
+    </div>
     <h4>Non-fiction</h4>
-    <ul>
-      <li>Theodore Rex</li>
-      <li>Moonwalking with Einstein </li>
-      <li>1493: Uncovering the New World Columbus Created </li>
-    </ul>
+    <p>Theodore Rex</p>
+    <p>Moonwalking with Einstein </p>
+    <p>1493: Uncovering the New World Columbus Created </p>
   </section>
   <section>
     <h3>My favorite movies and shows </h3>
