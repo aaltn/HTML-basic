@@ -6,3 +6,5 @@
 * 2. Basic Page Structure.
 
 * 3. Formatting Page Content.
+
+* 4. Structuring Content
