@@ -10,3 +10,5 @@
 * 4. Structuring Content
 
 * 5. Creating Links
+
+* 6. Creating Lists
